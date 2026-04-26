@@ -14,7 +14,7 @@ export const Nav = () => {
     const desktopMenu = <nav className='font-body flex items-center text-sm justify-center px-[32px] py-[20px] border-b-[2px] border-white-500 bg-white-400 z-[1000] fixed w-full'>
         <img src={logo} alt='logo icon' width={'102px'} className='absolute left-[32px]' />
 
-        <ul className='flex items-center gap-32'>
+        <ul className='flex items-center gap-12'>
             <li className='hover:underline'><a href='/#home' className='hover:text-blue-300'>Home</a></li>
             <li className='hover:underline'><a href='/#about' className='hover:text-blue-300'>About</a></li>
             <li className='hover:underline'><a href='/#features' className='hover:text-blue-300'>Features</a></li>
