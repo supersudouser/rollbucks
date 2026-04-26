@@ -16,8 +16,8 @@ export const Footer = () => {
                 }}
                 className='h-4/5 rounded-[17px] flex flex-col gap-8 items-center justify-center text-white-400'
             >
-                <h1 className="text-2xl lg:text-6xl font-bold text-center">Seamless Pay for <br /> African Talent</h1>
-                <Link to="register" className="font-bold font-body text-black-400 rounded-xl py-4 px-3 text-xs lg:text-sm bg-yellow hover:bg-white-400 hover:text-black-400">Join RollBucks. Now</Link>
+                <h1 className="text-2xl lg:text-6xl font-bold text-center">Simple Bookkeeping, <br /> Smarter Business</h1>
+                <a href="https://getlaunchlist.com/pages/rollbucks" className="font-bold font-body text-black-400 rounded-xl py-4 px-3 text-xs lg:text-sm bg-yellow hover:bg-white-400 hover:text-black-400">Join Waitlist</a>
             </section>
             <section className='flex flex-col-reverse lg:flex-row items-center justify-between h-1/5'>
                 <p className='font-light text-[8px] text-white-600'>© All Rights Reserved. 2023, RollBucks.</p>

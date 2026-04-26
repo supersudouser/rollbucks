@@ -11,21 +11,16 @@ export const Nav = () => {
         setShowMenu(prev => !prev);
     }
 
-    const desktopMenu = <nav className='font-body flex items-center text-sm justify-between px-[32px] py-[20px] border-b-[2px] border-white-500 bg-white-400 z-[1000] fixed w-full'>
-        <img src={logo} alt='logo icon' width={'102px'} />
+    const desktopMenu = <nav className='font-body flex items-center text-sm justify-center px-[32px] py-[20px] border-b-[2px] border-white-500 bg-white-400 z-[1000] fixed w-full'>
+        <img src={logo} alt='logo icon' width={'102px'} className='absolute left-[32px]' />
 
-        <ul className='flex items-center gap-8 pl-10'>
+        <ul className='flex items-center gap-32'>
             <li className='hover:underline'><a href='/#home' className='hover:text-blue-300'>Home</a></li>
             <li className='hover:underline'><a href='/#about' className='hover:text-blue-300'>About</a></li>
             <li className='hover:underline'><a href='/#features' className='hover:text-blue-300'>Features</a></li>
             {/* <li><a href='/#faq' className='hover:text-blue-300'>FAQ</a></li>
             <li><a href='/#contact' className='hover:text-blue-300'>Contact</a></li> */}
         </ul>
-
-        <span className='space-x-2'>
-            <Link to='login' className='font-medium text-white-400 rounded-xl py-4 px-3 text-sm bg-black-400 hover:bg-yellow hover:text-black-400'>Log in</Link>
-            <Link to='register' className='font-medium text-black-400 rounded-xl py-4 px-3 text-sm border-[1px] border-black-400 hover:bg-yellow hover:border-yellow'>Create free account</Link>
-        </span>
     </nav>
 
     const mobileMenu = <nav className='font-body flex items-center text-sm justify-between px-[32px] py-[20px] border-b-[2px] border-white-500 bg-white-400 z-[1000] fixed w-full'>
@@ -47,8 +42,6 @@ export const Nav = () => {
                 </ul>
 
                 <span className='space-y-2'>
-                    <Link to='login' className='flex justify-center font-medium text-black-400 rounded-xl py-3 px-2 text-xs bg-yellow hover:bg-white-400 '>Log in</Link>
-                    <Link to='register' className='flex justify-center font-medium text-white-400 rounded-xl py-3 px-2 text-xs border-[1px] border-white-400 hover:bg-yellow hover:border-yellow'>Create free account</Link>
                 </span>
             </div>
         </div>
